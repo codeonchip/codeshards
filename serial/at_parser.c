@@ -1,5 +1,5 @@
 /* at_parser.c
- * Minimal AT command parser with grouped demo command lists.
+ * AT command parser with grouped demo command lists.
  *
  * Run profiles:
  *   ./at_parser -p basic
@@ -193,7 +193,7 @@ static int cmd_CMGS_set(const char *num, const char *msg)
     return 0;
 }
 
-/* ------------ Minimal argument helpers ------------ */
+/* ------------ argument helpers ------------ */
 static int parse_int(const char *s, int *out)
 {
     if (!s || !*s)

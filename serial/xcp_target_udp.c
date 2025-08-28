@@ -1,5 +1,5 @@
 // xcp_host_udp.c
-// Minimal, spec-inspired XCP demo over UDP (NOT production XCP).
+// Spec-inspired XCP demo over UDP (NOT production XCP).
 // Implements: CONNECT(0xFF), DISCONNECT(0xFE), GET_STATUS(0xFD),
 // GET_ID(0xFA), SET_MTA(0xF6), UPLOAD(0xF5), SHORT_UPLOAD(0xF4), DOWNLOAD(0xF0)
 // Byte order: little-endian for addresses/sizes, like typical XCP examples.

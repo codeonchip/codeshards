@@ -1,4 +1,4 @@
-// nmea_parser.c — Minimal NMEA-0183 parser for GGA & RMC with checksum
+// nmea_parser.c — NMEA-0183 parser for GGA & RMC with checksum
 // Build: gcc -std=c99 -O2 -Wall nmea_parser.c -o nmea_parser
 // Run:   ./nmea_parser and ctrl-d      (uses built-in test lines)
 //        cat gps.log | ./nmea_parser   (parses live or recorded GPS data)

@@ -1,5 +1,4 @@
-# xcp_master_udp.py
-# Minimal XCP master for the UDP demo slave.
+# xcp_host_udp.py
 # Runs a tiny sequence: CONNECT, GET_STATUS, GET_ID,
 # SHORT_UPLOAD from an absolute address, SET_MTA + DOWNLOAD + UPLOAD.
 

@@ -1,5 +1,5 @@
 /*
- * ppp_demo.c — Minimal PPP encoder/decoder with byte-stuffing + CRC-16/PPP (FCS).
+ * ppp_demo.c — PPP encoder/decoder with byte-stuffing + CRC-16/PPP (FCS).
  *
  * Frame:  0x7E  [FF 03]  [Protocol_hi Protocol_lo]  [Payload...]  [FCS lo FCS hi]  0x7E
  * - Address=0xFF, Control=0x03 (UI frames)

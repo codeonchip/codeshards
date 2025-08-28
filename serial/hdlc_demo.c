@@ -1,6 +1,6 @@
 /*
  * hdlc_demo.c
- * Minimal HDLC/PPP-style encoder/decoder with byte-stuffing and CRC-16/PPP.
+ * HDLC/PPP-style encoder/decoder with byte-stuffing and CRC-16/PPP.
  *
  * - Flag: 0x7E
  * - Escape: 0x7D, escaped_byte = byte ^ 0x20
