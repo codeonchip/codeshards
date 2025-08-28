@@ -8,7 +8,7 @@
  * - Valid frame check: if you run the CRC over payload+FCS, result is 0xF0B8.
  *
  * Build: gcc -std=c99 -O2 -Wall hdlc_demo.c -o hdlc_demo
- * 
+ *
  * echo "01 02 7E 03 7D 04" | ./hdlc_demo
  * or
  * ./hdlc_demo and then ctrl-d
