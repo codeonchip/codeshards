@@ -1,5 +1,5 @@
-// Minimal ICMP traceroute (Linux, IPv4)
-// sudo required. For learning/demo purposes.
+// ICMP traceroute (Linux, IPv4)
+// sudo required.
 //
 // Usage: ./traceroute_icmp [-m max_hops] [-q probes] [-w timeout_ms] <host>
 

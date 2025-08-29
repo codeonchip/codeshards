@@ -1,4 +1,4 @@
-// Minimal UDP-based traceroute for Linux (IPv4)
+// UDP-based traceroute for Linux (IPv4)
 // Sends UDP datagrams with increasing TTL to high-numbered ports.
 // Listens for ICMP Time Exceeded (hops) and ICMP Dest Unreach/Port (destination).
 // sudo required (raw ICMP receive socket).

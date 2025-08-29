@@ -1,4 +1,4 @@
-// sniff_raw.c - Minimal raw-socket packet sniffer for Linux (AF_PACKET)
+// sniff_raw.c - raw-socket packet sniffer for Linux (AF_PACKET)
 // Build: gcc -O2 -Wall -Wextra -o sniff_raw sniff_raw.c
 // Usage: sudo ./sniff_raw [-i iface] [-p] [-x] [-n count]
 //
