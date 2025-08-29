@@ -1,4 +1,4 @@
-/* minisheet.c — tiny terminal spreadsheet (C99)
+/* sheet.c — terminal spreadsheet (C99)
  *
  * Features:
  *  - A1 references, 64 columns (A..BL), 100 rows.
@@ -9,8 +9,16 @@
  *    invalid refs (#REF), divide-by-zero (#DIV0).
  *  - REPL commands: SET, SHOW, PRINT, CLEAR, SAVESS, LOADSS, SAVECSV, LOADCSV, HELP, QUIT.
  *
- * Build: gcc -std=c99 -O2 -Wall -Wextra minisheet.c -o minisheet -lm
+ * Build: gcc -std=c99 -O2 -Wall -Wextra sheet.c -o sheet -lm
  */
+
+#if 0
+ss> set A1 10
+ss> set A2 20
+ss> set B1 =A1*2
+ss> set C1 =sum(A1:B1) + avg(A2:A2)
+ss> print 5 5
+#endif
 
 #include <stdio.h>
 #include <stdlib.h>
