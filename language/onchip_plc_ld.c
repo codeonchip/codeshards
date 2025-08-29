@@ -1,4 +1,4 @@
-/* Minimal Ladder (LD) interpreter with IL-style input
+/* Ladder (LD) interpreter with IL-style input
  * Features: LD/LDN, AND/ANDN, OR/ORN, NOT, OUT/SET/RESET, TON (on-delay), ENDRUNG
  * Timer semantics (TON): Q turns TRUE when IN has been TRUE for PT ms; resets when IN=FALSE
  * Compile:  gcc -std=c99 -O2 -Wall plc_ld.c -o plc_ld

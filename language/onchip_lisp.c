@@ -5,7 +5,7 @@
 
 /* ================= Embedded demo program ================= */
 static const char *demo_program =
-    "; Tiny Lisp demo\n"
+    "; Lisp demo\n"
     "; factorial, higher-order map, and closures\n"
     "(define (fact n)\n"
     "  (if (<= n 1) 1 (* n (fact (- n 1)))))\n"

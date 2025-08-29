@@ -1,4 +1,4 @@
-/* kestrel.c — Tiny scripting language with an embedded demo program.
+/* kestrel.c — Scripting language with an embedded demo program.
  *
  * Features:
  *  - int (32-bit) and bool (true/false)

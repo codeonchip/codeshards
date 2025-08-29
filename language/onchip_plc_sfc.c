@@ -1,4 +1,4 @@
-/* plc_sfc.c — Minimal Sequential Function Chart (SFC) interpreter (single file)
+/* plc_sfc.c — Sequential Function Chart (SFC) interpreter (single file)
  *
  * Features
  *  - Tiny SFC DSL parser (VAR/END_VAR, STEP, INITIAL, ACTION ... DO ..., TRANS A -> B IF expr)

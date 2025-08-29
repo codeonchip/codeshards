@@ -1,4 +1,4 @@
-/* plc_fbd.c - Minimal Function Block Diagram (FBD) interpreter with embedded demo
+/* plc_fbd.c - Function Block Diagram (FBD) interpreter with embedded demo
  *
  * Features
  *  - Small DSL: VAR, BLOCK, CONNECT

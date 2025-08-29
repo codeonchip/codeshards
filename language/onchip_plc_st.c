@@ -7,7 +7,6 @@
  *  - IF ... THEN ... [ELSE ...] END_IF;
  *
  * Notes:
- *  - This is a compact educational interpreter, not a full IEC 61131-3 front end.
  *  - Extend easily with INT/REAL by expanding Value/lexer and arithmetic rules.
  *
  * Build:  gcc -std=c99 -O2 -Wall plc_st.c -o plc_st
