@@ -16,7 +16,6 @@
  *   KWANG, YEOL (animal), TTI (ribbon), PI (junk)
  *
  * Deck mapping approximates common hwatu distribution for playability.
- * This is NOT tournament-accurate; it's a learning/console-friendly version.
  */
 
 #include <stdio.h>
